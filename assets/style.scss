@@ -1,20 +1,48 @@
-.mar-l-2{
-    margin-left: 2rem;
-}
-
-.mar-l-4{
-    margin-left: 4rem;
-}
+$primary-color:#511F50;
+$primary-color-light:rgba(81, 31, 80,0.7);
 
 .mar-t-2{
     margin-top: 0rem;
 }
 
-#start{
+#star-card{
+    background-color: #ebe1eb;   // change it later
+    border-radius: 1rem;
+    border: none;
+    color:$primary-color;    // change it later
+
     i{
-        color: goldenrod;
+        color: 	#e3c16d;
     }
 }
+
+#review-text {
+    h1#review-heading{
+        color: $primary-color;
+    }
+    p#review-para{
+        color: $primary-color-light;
+    }
+    
+}
+
+#review-card-body{
+
+   
+}
+
+
+@for $i from 1 through 3 {
+    #review-card:nth-child(#{$i}){
+        margin-top: 1rem;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+        margin-left: $i * 2rem;
+    }
+}
+
+
+
 @media (max-width: 480px) {
     .mar-l-2 {
       margin-left: 0;
@@ -26,5 +54,13 @@
 
       .mar-t-2{
         margin-top: 10px;
+    }
+    @for $i from 1 through 3 {
+        #review-card:nth-child(#{$i}){
+            margin-top: 1rem;
+            margin-right: 2rem;
+            margin-bottom: 1rem;
+            margin-left: 2rem;
+        }
     }
   }

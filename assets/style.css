@@ -1,17 +1,45 @@
-.mar-l-2 {
-  margin-left: 2rem;
-}
-
-.mar-l-4 {
-  margin-left: 4rem;
-}
-
 .mar-t-2 {
   margin-top: 0rem;
 }
 
-#start i {
-  color: goldenrod;
+#star-card {
+  background-color: #ebe1eb;
+  border-radius: 1rem;
+  border: none;
+  color: #511F50;
+}
+
+#star-card i {
+  color: #e3c16d;
+}
+
+#review-text h1#review-heading {
+  color: #511F50;
+}
+
+#review-text p#review-para {
+  color: rgba(81, 31, 80, 0.7);
+}
+
+#review-card:nth-child(1) {
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+#review-card:nth-child(2) {
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 4rem;
+}
+
+#review-card:nth-child(3) {
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 6rem;
 }
 
 @media (max-width: 480px) {
@@ -23,6 +51,24 @@
   }
   .mar-t-2 {
     margin-top: 10px;
+  }
+  #review-card:nth-child(1) {
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+  }
+  #review-card:nth-child(2) {
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+  }
+  #review-card:nth-child(3) {
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
