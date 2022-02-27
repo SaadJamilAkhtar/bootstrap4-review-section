@@ -1,0 +1,28 @@
+.mar-l-2 {
+  margin-left: 2rem;
+}
+
+.mar-l-4 {
+  margin-left: 4rem;
+}
+
+.mar-t-2 {
+  margin-top: 0rem;
+}
+
+#start i {
+  color: goldenrod;
+}
+
+@media (max-width: 480px) {
+  .mar-l-2 {
+    margin-left: 0;
+  }
+  .mar-l-4 {
+    margin-left: 0;
+  }
+  .mar-t-2 {
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
