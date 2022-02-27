@@ -1,5 +1,11 @@
 $primary-color:#511F50;
-$primary-color-light:rgba(81, 31, 80,0.7);
+$primary-color-light:rgba(81, 31, 80,0.5);
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
+
+body {
+    font-family: League Spartan;
+}
 
 .mar-t-2{
     margin-top: 0rem;
@@ -17,11 +23,21 @@ $primary-color-light:rgba(81, 31, 80,0.7);
 }
 
 #review-text {
+
+    text-align: left;
+
     h1#review-heading{
         color: $primary-color;
+        text-align: left;
+        padding-bottom: 0rem;
+        font-weight: bolder;
+        word-spacing: 3px;
+        font-size: 64px;
+        line-height: 55px;
     }
     p#review-para{
         color: $primary-color-light;
+        font-size: 18px;
     }
     
 }
@@ -36,7 +52,6 @@ $primary-color-light:rgba(81, 31, 80,0.7);
     #review-card:nth-child(#{$i}){
         margin-top: 1rem;
         margin-right: 2rem;
-        margin-bottom: 1rem;
         margin-left: $i * 2rem;
     }
 }
@@ -59,8 +74,23 @@ $primary-color-light:rgba(81, 31, 80,0.7);
         #review-card:nth-child(#{$i}){
             margin-top: 1rem;
             margin-right: 2rem;
-            margin-bottom: 1rem;
             margin-left: 2rem;
         }
     }
+
+    #review-text {
+
+        text-align: center;
+
+        h1#review-heading{
+            text-align: center;
+            font-size: 52px;
+            padding: 2rem;
+            line-height: 45px;
+        }
+        
+        
+    }
+
+
   }
