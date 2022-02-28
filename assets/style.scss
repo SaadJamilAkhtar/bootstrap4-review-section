@@ -20,6 +20,9 @@ body {
     i{
         color: 	#F19035;
     }
+    &:hover{
+        
+    }
 }
 
 #review-text {
@@ -43,7 +46,13 @@ body {
 }
 
 #review-card-body{
-
+    #review-card{
+        transition: all 0.25s ease-out;
+        &:hover{
+            transform: perspective(100px) translateZ(10px);
+            
+        }
+    }
    
 }
 

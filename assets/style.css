@@ -37,6 +37,16 @@ body {
   font-size: 18px;
 }
 
+#review-card-body #review-card {
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+
+#review-card-body #review-card:hover {
+  -webkit-transform: perspective(100px) translateZ(10px);
+          transform: perspective(100px) translateZ(10px);
+}
+
 #review-card:nth-child(1) {
   margin-top: 1rem;
   margin-right: 2rem;
