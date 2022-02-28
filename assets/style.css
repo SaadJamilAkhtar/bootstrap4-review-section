@@ -67,7 +67,16 @@ body {
 
 .testimonial {
   background: #511F50;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+
+.testimonial:hover {
+  -webkit-transform: perspective(100px) rotate(5deg);
+          transform: perspective(100px) rotate(5deg);
 }
 
 .testimonial #user-img {
@@ -83,14 +92,25 @@ body {
 
 .testimonial .user-name #user-badge {
   color: #9C568B;
+  margin-top: -0.25rem;
 }
 
 .testimonial-text {
   color: white;
   text-align: left;
   font-size: 14px;
-  font-weight: 10;
-  font-style: italic;
+}
+
+#testimonial-card:nth-child(1) {
+  margin-top: 1.5rem;
+}
+
+#testimonial-card:nth-child(2) {
+  margin-top: 3rem;
+}
+
+#testimonial-card:nth-child(3) {
+  margin-top: 4.5rem;
 }
 
 @media (max-width: 767px) {
@@ -126,6 +146,23 @@ body {
     font-size: 52px;
     padding: 2rem;
     line-height: 45px;
+  }
+  .testimonial-text {
+    font-size: 18px;
+    font-style: normal;
+  }
+  #testimonial-card:nth-child(1) {
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+  #testimonial-card:nth-child(2) {
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+  #testimonial-card:nth-child(3) {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
