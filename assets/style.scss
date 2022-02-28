@@ -20,6 +20,7 @@ body {
     i{
         color: 	#F19035;
     }
+
     &:hover{
         
     }
@@ -66,6 +67,39 @@ body {
 }
 
 
+.testimonial{
+    background: $primary-color;
+    border-radius: 1rem;
+
+    #user-img{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 4rem;
+    }
+
+    .user-name{
+        color: white;
+        padding-top: 0.20rem;
+
+        #user-badge{
+            color: #9C568B;  // change here
+
+        }
+    }
+
+    
+
+}
+
+
+.testimonial-text {
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 10;
+    font-style: italic;
+    
+}
 
 @media (max-width: 767px) {
     .mar-l-2 {
