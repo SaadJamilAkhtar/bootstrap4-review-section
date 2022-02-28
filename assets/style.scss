@@ -18,7 +18,7 @@ body {
     color:$primary-color;    // change it later
 
     i{
-        color: 	#e3c16d;
+        color: 	#F19035;
     }
 }
 
@@ -58,7 +58,7 @@ body {
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     .mar-l-2 {
       margin-left: 0;
     }
